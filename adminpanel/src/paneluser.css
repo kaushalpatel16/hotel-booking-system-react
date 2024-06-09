@@ -1,0 +1,110 @@
+/* Adjustments for the cards */
+.card {
+  border: none; /* Remove default card border */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effect */
+}
+
+
+
+/* Background color and hover effect for success cards */
+.card.bg-success {
+  background-color: #28a745; /* Change background color */
+}
+
+.card.bg-success:hover {
+  transform: translateY(-5px); /* Add hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add larger shadow on hover */
+}
+
+/* Background color and hover effect for danger cards */
+.card.bg-danger {
+  background-color: #dc3545; /* Change background color */
+}
+
+.card.bg-danger:hover {
+  transform: translateY(-5px); /* Add hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add larger shadow on hover */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 575.98px) { /* For extra small devices */
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) { /* For small devices */
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) { /* For medium devices */
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) { /* For large devices */
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1200px) { /* For extra large devices */
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+/* Add custom styles to the table */
+.table {
+  border-radius: 10px; /* Add border radius to the table */
+  overflow: hidden; /* Hide overflow content */
+  background-color: #f8f9fa; /* Set background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Style for table headers */
+.table thead th {
+  background-color: #007bff; /* Set header background color */
+  color: #fff; /* Set header text color */
+}
+
+/* Style for table cells */
+.table tbody td {
+  border-top: 1px solid #dee2e6; /* Add top border to table cells */
+  padding: 12px; /* Add padding to table cells */
+}
+
+/* Hover effect for table rows */
+.table tbody tr:hover {
+  background-color: #e9ecef; /* Light background color on hover */
+}
+
+/* Styling for update and delete buttons */
+.btn-outline-success,
+.btn-outline-danger {
+  transition: all 0.3s ease; /* Add transition effect */
+  padding: 8px 16px; /* Add padding to buttons */
+  border-radius: 5px; /* Add border radius to buttons */
+  font-size: 14px; /* Set font size */
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745; /* Darker background color on hover */
+  border-color: #218838; /* Darker border color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545; /* Darker background color on hover */
+  border-color: #c82333; /* Darker border color on hover */
+  color: #fff; /* Change text color on hover */
+}

@@ -1,0 +1,107 @@
+
+.gericht {
+  color: white;
+  height: 48px;
+  width: 183px;
+  position: relative;
+  font-size: 250%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+  font-family: var(--font-irish-grover);
+  margin-left: 28%;
+}
+.i {
+  color:#b1e457;
+}
+.error{
+  color: red;
+}
+.details{
+  color: #b1e457;
+}
+.btnn{
+  background-color: #b1e457;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.welcomeBack {
+  top: 0;
+  left: 46px;
+  font-size: var(--font-size-xl);
+  color: var(--color-yellowgreen);
+}
+.cover{
+  background-color: #121826;
+  border-radius:5%;
+  color:gray;
+  margin-top: 10%;
+  margin-right: 3%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-inknut-antiqua);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.wrapperFrame5Child {
+  border: 0;
+  font-family: var(--font-inknut-antiqua);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  z-index: 3;
+  background-color:gray;
+  border-radius: 15px; 
+}
+.wrapperFrame5Child::placeholder {
+  color: rgb(255, 255, 255); /* Set the desired color */
+}
+.wrapperFrame4Child::placeholder {
+  color: rgb(255, 255, 255); /* Set the desired color */
+}
+.wrapperFrame4Child{
+  border: 0;
+  font-family: var(--font-inknut-antiqua);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  z-index: 3;
+  background-color:gray;
+  border-radius: 15px;
+
+}
+.inerbody{
+  border-radius: 5%;
+}
+.body {
+  background-color: #6c727f;
+padding: 2%;
+border-radius: 5%;
+}
+.secondcover{
+  border-radius: 5%;
+  margin: 5% 10% 10% 10%;
+  background-color: #212936;
+  align-content: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.img{
+  height: 100%;
+}
+
+
+@media screen and (max-width: 770px) {
+  .img{
+    display: none;
+  }
+}
